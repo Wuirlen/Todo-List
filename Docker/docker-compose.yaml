@@ -1,9 +1,0 @@
-version: "3"
-
-services:
-    app:
-     build: .
-     ports:
-     - 3002:3000
-     volumes:
-     - ./:/home/wuirlen/Development/ES
